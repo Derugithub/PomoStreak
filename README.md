@@ -34,16 +34,16 @@ To try a full cycle without waiting, set Focus to 1 minute in Settings.
 
 ## Brand assets
 
-The shipped images are placeholders so Expo Go can boot. Replace them with a brand pack later:
+The app icon, splash mark, favicon, and Android adaptive icons are the PomoStreak brand pack. Splash and adaptive-icon backgrounds use `#0B0A0F`.
 
 | Path | Use |
 | --- | --- |
 | `assets/images/icon.png` | App icon (1024×1024) |
-| `assets/images/splash-icon.png` | Splash mark on `#0C0C0E` |
+| `assets/images/splash-icon.png` | Splash mark on `#0B0A0F` |
 | `assets/images/favicon.png` | Web favicon |
 | `assets/images/android-icon-foreground.png` | Android adaptive foreground |
 | `assets/images/android-icon-background.png` | Android adaptive background |
 | `assets/images/android-icon-monochrome.png` | Android monochrome icon |
 | `assets/sounds/complete.wav` | Session-end chime |
 
-`scripts/generate-placeholder-assets.py` redraws these placeholders.
+`scripts/generate-placeholder-assets.py` overwrites these files with generated placeholders. Do not run it if you want to keep the brand pack.
