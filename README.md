@@ -45,5 +45,3 @@ The app icon, splash mark, favicon, and Android adaptive icons are the PomoStrea
 | `assets/images/android-icon-background.png` | Android adaptive background |
 | `assets/images/android-icon-monochrome.png` | Android monochrome icon |
 | `assets/sounds/complete.wav` | Session-end chime |
-
-`scripts/generate-placeholder-assets.py` overwrites these files with generated placeholders. Do not run it if you want to keep the brand pack.
