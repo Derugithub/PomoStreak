@@ -107,7 +107,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     history,
     settings,
   });
-  snapshot.current = { timer, history, settings };
+  useEffect(() => {
+    snapshot.current = { timer, history, settings };
+  }, [timer, history, settings]);
   const completing = useRef(false);
 
   const commit = useCallback((next: Partial<Snapshot>, note?: string | null) => {
