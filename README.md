@@ -72,8 +72,8 @@ Idle phases use the new length. A running timer keeps its end time. Paused time 
 
 - iOS bundle identifier and Android package `com.pomostreak.app`
 - App background `#0C0C0E`
-- Splash and Android adaptive-icon backgrounds `#0B0A0F`
-- Splash image `./assets/images/splash-icon.png` at width 140
+- Splash and Android adaptive-icon backgrounds `#FFFFFF`
+- Splash image `./assets/images/splash-icon.png` at width 200
 - Notification color `#E07A4C`
 - `expo-audio` with microphone permission off, Android audio recording off, and background playback off
 - Web output `static`, with favicon `./assets/images/favicon.png`
@@ -136,12 +136,12 @@ Local notifications are skipped on web. Notification permission checks there ret
 
 ### Brand assets
 
-The app icon, splash mark, favicon, and Android adaptive icons are the PomoStreak brand pack. Splash and adaptive-icon backgrounds use `#0B0A0F`.
+The app icon, splash mark, favicon, and Android adaptive icons are the PomoStreak brand pack. Splash and adaptive-icon backgrounds use `#FFFFFF`.
 
 | Path | Use |
 | --- | --- |
 | `assets/images/icon.png` | App icon (1024×1024) |
-| `assets/images/splash-icon.png` | Splash mark on `#0B0A0F` |
+| `assets/images/splash-icon.png` | Splash mark on `#FFFFFF` |
 | `assets/images/favicon.png` | Web favicon |
 | `assets/images/android-icon-foreground.png` | Android adaptive foreground |
 | `assets/images/android-icon-background.png` | Android adaptive background |
